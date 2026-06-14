@@ -8,6 +8,3 @@ __pycache__/
 
 # Artigos de referência (PDFs grandes, não fazem parte do código)
 Artigos/
-
-# Modelos treinados (arquivos binários grandes, gerados pelo código)
-outputs/modelos_salvos/*.pkl
