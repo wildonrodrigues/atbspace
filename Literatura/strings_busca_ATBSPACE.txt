@@ -1,0 +1,125 @@
+=============================================================
+ATBSPACE — Strings de Busca nas Bases de Dados
+Projeto: Calculadora Farmacocinética para Antimicrobianos EV
+Data de registro: 07/06/2026
+=============================================================
+
+-------------------------------------------------------------
+1. VANCOMICINA
+-------------------------------------------------------------
+
+PubMed
+------
+(vancomycin) AND (pharmacokinetics OR "pharmacokinetic parameters" 
+OR "volume of distribution" OR clearance OR "half-life") 
+AND (cirrhosis OR "liver failure" OR "hepatic impairment" 
+OR "renal impairment" OR "critically ill" OR "intensive care")
+AND ("intravenous" OR "intravenous infusion")
+NOT ("intrathecal" OR "oral" OR "inhaled" OR "intramuscular")
+NOT ("animal" OR "vitro" OR "in vitro" OR "murine" OR "mice")
+
+Retorno PubMed: aguardando
+Data busca PubMed: aguardando
+
+Scopus
+------
+(TITLE-ABS("vancomycin"))
+AND (TITLE-ABS("population pharmacokinetics" OR "Monte Carlo simulation"
+OR "pharmacokinetic model" OR "PK/PD target attainment"
+OR "volume of distribution" OR "clearance"))
+AND (TITLE-ABS("critically ill" OR "intensive care" OR "ICU"
+OR "renal replacement therapy" OR "hepatic impairment"
+OR "cirrhosis" OR "liver failure" OR "renal impairment"))
+AND (TITLE-ABS("intravenous"))
+NOT ("animal" OR "vitro" OR "in vitro" OR "murine" OR "mice")
+AND (LIMIT-TO(DOCTYPE, "ar"))
+AND (LIMIT-TO(LANGUAGE, "English"))
+AND PUBYEAR > 2012 AND PUBYEAR < 2025
+AND (LIMIT-TO(SUBJAREA, "PHAR") OR LIMIT-TO(SUBJAREA, "MEDI"))
+
+Retorno Scopus: aguardando
+Data busca Scopus: aguardando
+
+-------------------------------------------------------------
+2. CEFTAZIDIMA/AVIBACTAM (CAZ-AVI)
+-------------------------------------------------------------
+
+PubMed
+------
+("ceftazidime-avibactam" OR "ceftazidime/avibactam" OR "CAZ-AVI" 
+OR "ceftazidime avibactam") 
+AND (pharmacokinetics OR "volume of distribution" OR clearance 
+OR "half-life" OR "PK/PD" OR "target attainment") 
+AND ("critically ill" OR "intensive care" OR "ICU" 
+OR "renal replacement therapy" OR "augmented renal clearance") 
+AND ("intravenous" OR "intravenous infusion")
+NOT ("intrathecal" OR "oral" OR "inhaled" OR "intramuscular")
+AND ("population pharmacokinetics" OR "Monte Carlo simulation" 
+OR "pharmacokinetic model")
+
+Retorno PubMed: 6
+Data busca PubMed: 07/06/2026
+
+Scopus
+------
+(TITLE-ABS("ceftazidime-avibactam" OR "ceftazidime/avibactam" OR "CAZ-AVI" 
+OR "ceftazidime avibactam" OR "Avycaz" OR "Zavicefta"))
+AND (TITLE-ABS("pharmacokinetics" OR "pharmacokinetic" OR "PK/PD" 
+OR "volume of distribution" OR "clearance" OR "half-life"
+OR "target attainment" OR "Monte Carlo"))
+NOT ("animal" OR "vitro" OR "in vitro" OR "murine" OR "mice")
+AND (LIMIT-TO(DOCTYPE, "ar") OR LIMIT-TO(DOCTYPE, "re") 
+OR LIMIT-TO(DOCTYPE, "rv"))
+AND (LIMIT-TO(LANGUAGE, "English"))
+AND PUBYEAR > 2010 AND PUBYEAR < 2025
+AND (LIMIT-TO(SUBJAREA, "PHAR") OR LIMIT-TO(SUBJAREA, "MEDI"))
+
+Retorno Scopus: 25
+Data busca Scopus: 07/06/2026
+
+-------------------------------------------------------------
+3. MEROPENEM
+-------------------------------------------------------------
+
+PubMed
+------
+(meropenem) AND (pharmacokinetics OR "pharmacokinetic parameters" 
+OR "volume of distribution" OR clearance OR "half-life" 
+OR "extended infusion" OR "prolonged infusion") 
+AND ("critically ill" OR "intensive care" OR "ICU" 
+OR "renal replacement therapy" OR "augmented renal clearance" 
+OR "sepsis")
+AND ("population pharmacokinetics" OR "Monte Carlo simulation" 
+OR "pharmacokinetic model" OR "PK/PD target attainment")
+AND ("intravenous" OR "intravenous infusion")
+NOT ("intrathecal" OR "oral" OR "inhaled" OR "intramuscular")
+NOT ("animal" OR "vitro" OR "in vitro" OR "murine" OR "mice")
+
+Retorno PubMed: aguardando
+Data busca PubMed: aguardando
+
+Scopus
+------
+(TITLE-ABS("meropenem"))
+AND (TITLE-ABS("population pharmacokinetics" OR "Monte Carlo simulation"
+OR "pharmacokinetic model" OR "PK/PD target attainment"))
+AND (TITLE-ABS("critically ill" OR "intensive care" OR "ICU" 
+OR "renal replacement therapy" OR "augmented renal clearance"))
+NOT ("animal" OR "vitro" OR "in vitro" OR "murine" OR "mice")
+AND (LIMIT-TO(DOCTYPE, "ar"))
+AND (LIMIT-TO(LANGUAGE, "English"))
+AND PUBYEAR > 2012 AND PUBYEAR < 2025
+AND (LIMIT-TO(SUBJAREA, "PHAR") OR LIMIT-TO(SUBJAREA, "MEDI"))
+
+Retorno Scopus: 50
+Data busca Scopus: 07/06/2026
+
+=============================================================
+NOTAS
+=============================================================
+- Strings validadas e ajustadas em 07/06/2026
+- Bases consultadas: PubMed, Scopus
+- Idioma: inglês
+- Tipos de estudo: artigos originais, revisões, metanálises
+- Exclusões: estudos em animais, in vitro, vias não EV
+- Retornos marcados como "aguardando" precisam ser completados

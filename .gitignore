@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+
+# Sincronização do Google Drive (arquivos temporários)
+.tmp.drivedownload/
+.tmp.driveupload/
+
+# Artigos de referência (PDFs grandes, não fazem parte do código)
+Artigos/
+
+# Modelos treinados (arquivos binários grandes, gerados pelo código)
+outputs/modelos_salvos/*.pkl

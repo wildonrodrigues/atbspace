@@ -1,0 +1,13 @@
+atb,estrutura,modelo,arquivo,data_treino,r2,mae_mg_L,rmse_mg_L,ativo
+meropenem,bi,bayesianridge,meropenem_bi_bayesianridge_20260613.pkl,20260613,0.6908,4.3283,6.1065,sim
+meropenem,bi,gradientboosting,meropenem_bi_gradientboosting_20260613.pkl,20260613,0.8048,3.5471,4.8525,sim
+meropenem,bi,lightgbm,meropenem_bi_lightgbm_20260613.pkl,20260613,0.8242,3.3676,4.6047,sim
+meropenem,bi,randomforest,meropenem_bi_randomforest_20260613.pkl,20260613,0.8368,3.2089,4.4363,sim
+meropenem,mono,bayesianridge,meropenem_mono_bayesianridge_20260613.pkl,20260613,0.705,4.1601,5.8292,sim
+meropenem,mono,gradientboosting,meropenem_mono_gradientboosting_20260613.pkl,20260613,0.8066,3.4646,4.7196,sim
+meropenem,mono,lightgbm,meropenem_mono_lightgbm_20260613.pkl,20260613,0.8203,3.3349,4.5491,sim
+meropenem,mono,randomforest,meropenem_mono_randomforest_20260613.pkl,20260613,0.8275,3.2318,4.4571,sim
+meropenem,tri,bayesianridge,meropenem_tri_bayesianridge_20260613.pkl,20260613,0.6935,4.1568,5.8664,sim
+meropenem,tri,gradientboosting,meropenem_tri_gradientboosting_20260613.pkl,20260613,0.809,3.3946,4.6314,sim
+meropenem,tri,lightgbm,meropenem_tri_lightgbm_20260613.pkl,20260613,0.8323,3.1637,4.3397,sim
+meropenem,tri,randomforest,meropenem_tri_randomforest_20260613.pkl,20260613,0.8352,3.0872,4.3016,sim
